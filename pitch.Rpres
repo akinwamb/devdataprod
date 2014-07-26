@@ -1,0 +1,44 @@
+Car stopping distance function of speed
+========================================================
+author: Alexandru Stanciu
+date: July 27th, 2014
+
+
+What is the current state of the art?
+========================================================
+
+[id1]: http://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Ferrari_458_Italia_--_05-18-2011.jpg/280px-Ferrari_458_Italia_--_05-18-2011.jpg  "Ferrari 458"
+
+According to [wikipedia](http://en.wikipedia.org/wiki/Ferrari_458), 
+
+![Ferrari][id1]
+
+a Ferrari 458 stopping distance from 62 mph is 105 ft.
+
+
+Aren't you courious?
+========================================================
+
+To know the situation back in 1920?
+
+```{r}
+summary(cars)
+```
+
+
+Plotting all the observations in the cars dataset 
+========================================================
+
+```{r, echo=FALSE}
+plot(cars)
+```
+
+
+You can discover more
+=====================
+
+on this shiny app: 
+
+[http://alexcstanciu.shinyapps.io/myapp3/](http://alexcstanciu.shinyapps.io/myapp3/)
+
+Thank you for reading!
