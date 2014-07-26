@@ -23,11 +23,12 @@ shinyUI(fluidPage(
       p('Please use the slider to set the car speed.',
         'The car stopping distance will be computed in the next plot.')
     ),
-    # Show a plot of the generated distribution
+    
+    # Main Panel
     mainPanel(
-      plotOutput("speedPlot"),
-      verbatimTextOutput("text1"),
-      verbatimTextOutput("text2")
+    plotOutput("speedPlot"),
+    verbatimTextOutput("text1"),
+    verbatimTextOutput("text2")
     )
   )
 ))
